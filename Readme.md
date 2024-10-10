@@ -1,15 +1,15 @@
 
 
-Ignore chrome.css:
-go into about:config
+Ignore `chrome.css`:
+go into `about:config`
 Set in the text field: 
-toolkit.legacyUserProfileCustomizations.stylesheets = true 
+`toolkit.legacyUserProfileCustomizations.stylesheets` `=` `true` 
 ---------------------------------------------
 Find installation folder of Mullvad / Firefox / Librewolf
-about:support
-Go to Profile Directory | Open Directory
-Create a folder called: chrome.css
-Create a file called: userContent.css
+`about:support`
+Go to `Profile Directory` | click `Open Directory`
+Create a folder called: `chrome`
+Create a file called: `userContent.css`
 ---------------------------------------------
 Examples where background is set to dark gray:
 
@@ -298,6 +298,6 @@ Examples where background is set to dark gray:
 
 #handlersView{
         background-color: #1b1b1b !important; /* Replace #yourColorCode with your desired
-}
+}-
 
-body
+
