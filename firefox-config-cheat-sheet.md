@@ -7,10 +7,10 @@
    1.4. Set the value to `true`
 
 
-2. Find installation folder of Mullvad / Firefox / LibreWolf
-   2.1. Open `about:support`
-   2.2. Under **Profile Directory**, select **Open Directory**
-   2.3. Create a folder named `chrome`
+2. Find installation folder of Mullvad / Firefox / LibreWolf\
+   2.1. Open `about:support`\
+   2.2. Under **Profile Directory**, select **Open Directory**\
+   2.3. Create a folder named `chrome`\
    2.4. Inside that folder, create a file named `userContent.css`
 
 ## Examples where background is set to dark gray:
