@@ -1,16 +1,16 @@
-
+# Dark Mode Styling for Firefox Internal Pages using userContent.css
 
 Ignore `chrome.css`:
 go into `about:config`
 Set in the text field: 
 `toolkit.legacyUserProfileCustomizations.stylesheets` `=` `true` 
----------------------------------------------
+
 Find installation folder of Mullvad / Firefox / Librewolf
 `about:support`
 Go to `Profile Directory` | click `Open Directory`
 Create a folder called: `chrome`
 Create a file called: `userContent.css`
----------------------------------------------
+
 Examples where background is set to dark gray:
 
 @-moz-document url("about:home") {
